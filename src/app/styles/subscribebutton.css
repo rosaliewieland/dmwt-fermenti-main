@@ -1,0 +1,21 @@
+.rounded-button {
+    display: inline-block;
+    padding: 30px 90px;
+    border-radius: 25px;
+    background-color: #D94F04;
+    color: white;
+    text-decoration: none;
+    text-align: top;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    font-size: 30px; /* Increased font size for larger text */
+    font-weight: normal;
+  }
+  
+  .rounded-button:hover {
+    background-color: orange;
+  }
+  
+  .rounded-button:active {
+    transform: scale(0.95);
+  }

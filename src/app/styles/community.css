@@ -1,0 +1,114 @@
+
+.community-section {
+    position: relative;
+    height: 100vh;
+    background-color: #CCFEFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+  
+  .community-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4.5em;
+    font-style: normal;
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 50px;
+    margin-top: 50px;
+  }
+  
+  /* Styles for the container and box content */
+  .community-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .image-container img {
+    width: 1200px; /* Adjust as needed */
+    height: auto;
+  }
+  
+  /* Styles for the arrows */
+  .right{
+    align-items: right;
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    margin-top: -100px;
+    margin-left: 30px;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 100px solid gray;
+    transition: transform 0.2s ease; /* Übergangseffekt */
+}
+.right:hover{
+   border-left: 100px solid #D94F04;
+    
+
+}
+.right:active {
+    transform: scale(0.9); /* Verkleinert das Dreieck beim Klicken */
+}
+.right:focus {
+    outline: none; /* Entfernt den Standard-Fokusrahmen */
+    border-left-color: darkblue; /* Ändert die Farbe des Dreiecks, wenn es fokussiert ist */
+}
+
+
+.left{
+    align-items: right;
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    margin-left: -40px;
+    margin-right: 30px;
+    margin-bottom: 100px;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-right: 100px solid gray;
+    transition: transform 0.2s ease; /* Übergangseffekt */
+}
+.left:hover{
+   border-right: 100px solid #D94F04;
+    
+
+}
+.left:active {
+    transform: scale(0.9); /* Verkleinert das Dreieck beim Klicken */
+}
+.left:focus {
+    outline: none; /* Entfernt den Standard-Fokusrahmen */
+    border-left-color: darkblue; /* Ändert die Farbe des Dreiecks, wenn es fokussiert ist */
+}
+
+
+  
+  /* Styles for the subscribe button container */
+  .community-subscribe-container {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    z-index: 2; /* Ensure it appears above the image */
+    height: 100px;
+    width: 100%;
+  }
+

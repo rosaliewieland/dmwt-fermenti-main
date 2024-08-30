@@ -1,0 +1,193 @@
+.showFirstQuestion{
+    position: absolute;
+    z-index: 1;
+  width: 125px;
+  height: 50px;
+  border-radius: 75%;
+  align-items: center;
+  text-align: center;
+  top: 175px;
+  left: 400px;
+  border-style: solid;
+  border-color:#D94F04;
+  background-color: white;
+
+}
+.tableth1
+{   position: absolute;
+    z-index: 1;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    border-radius: 75%;
+    align-items: center;
+    text-align: center;
+    top: 100px;
+    left: 200px;
+
+}
+
+#a1Ja{
+    position: absolute;
+    top: 275px;
+    left: 335px;
+    cursor: pointer;
+    z-index: 1;
+}
+#a1Nein{
+    position: absolute;
+    top: 275px;
+    left: 495px;
+    cursor: pointer;
+    z-index: 1;
+}
+#construbtion{
+    position: absolute;
+    left: 1010px;
+    top: 200px;
+    border-style: solid;
+    border-color:#D94F04;
+}
+.showSecondQuestion{
+    position: absolute;
+    width: 125px;
+    height: 75px;
+    border-radius: 75%;
+    align-items: center;
+    text-align: center;
+    top: 400px;
+    left: 200px;
+    border-style: solid;
+    border-color:#D94F04;
+    background-color: white;
+    z-index: 1;
+  
+}
+.tablet{
+    position: relative;
+    margin-left: 20px;
+    height: 950px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    width: 901px;
+    background: no-repeat;
+    background-image: url("../../../public/tablet.svg");
+}
+
+#a2Ja{
+
+    position: absolute;
+    top: 550px;
+    left: 115px;
+    cursor: pointer;
+}
+#a2Nein{
+
+    position: absolute;
+    top: 550px;
+    left: 312px;
+    cursor: pointer;
+    z-index: 1;
+
+}
+
+
+
+.arrow {
+    position: absolute;
+    top: 187px;
+    left: 384px;
+  }
+.showThirdQuestion{
+    background-color: white;
+    position: absolute;
+    width: 150px;
+    height: 75px;
+    border-radius: 75%;
+    align-items: center;
+    text-align: center;
+    top: 650px;
+    left: 520px;
+    border-style: solid;
+    border-color:#D94F04;
+}
+
+#a3Ja{
+    position: absolute;
+    top: 800px;
+    left: 470px;
+    cursor: pointer;
+}
+#a3Nein{
+    position: absolute;
+    top: 800px;
+    left: 625px;
+    cursor: pointer;
+}
+.arrow1 {
+    position: absolute;
+    top: 187px;
+    left: 164px;
+  }
+.arrow2{
+    position: absolute;
+    top: 188px;
+    left: 518px;
+  }
+  .arrow3{
+    position: absolute;
+    top: 188px;
+    left: 674px;
+  }
+
+.arrowA1Yes{
+    position: absolute;
+    top: 197px;
+    left: 372px;
+}
+.arrowA1No{
+    position: absolute;
+    top: 197px;
+    left: 470px;
+}
+
+.arrowQ2{
+    position: absolute;
+    top: 290px;
+    left: 250px;
+}
+
+.arrowA2Yes{
+    position: absolute;
+    top: 475px;
+    left: 150px;
+}
+.arrowA2No{
+    position: absolute;
+    top: 475px;
+    left: 268px;
+}
+button{
+    background-color:#D94F04;
+    border-color: #B13E00;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    
+}
+.arrowA3Yes{
+    position: absolute;
+    top: 722px;
+    left: 505px;
+}
+.arrowA3No{
+    position: absolute;
+    top: 722px;
+    left: 602px;
+}
+.arrowQ3{
+    position: absolute;
+    top: 562px;
+    left: 365px;
+}

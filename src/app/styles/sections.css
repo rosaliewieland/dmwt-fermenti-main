@@ -1,0 +1,35 @@
+
+/*sections*/
+
+span{
+  font-style: italic;
+  color: orange;
+}
+
+.tradition-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #025259;
+ 
+}
+
+
+
+.quiz-section{
+  display: flex;
+  height: 100vh;
+  background-color: #ffff;
+}
+
+
+.anmelden-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ffff;
+}
+
+

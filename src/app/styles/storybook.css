@@ -1,0 +1,32 @@
+@keyframes slideInLeft {
+    0%{
+        transform: translateX(0px);
+    }
+    
+    50%{
+        transform: translateX(1650px);
+    }
+
+    75%{
+        transform: translate(1650px, 800px)
+
+
+    }
+    100%{
+        transform: translate(0px, 800px)
+
+
+    }
+}
+
+
+  .rive_container{
+    position: absolute;
+    width: 300px;
+    height: 420px;
+    transform: scale(200);
+    transition: transform 0.1s linear;
+    z-index: 4;
+    transition: transform 0.1s linear, rotate 0.5s ease-in-out;
+    
+  }

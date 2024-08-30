@@ -1,0 +1,80 @@
+.moderne-section {
+    position: relative;
+    height: 100vh;
+    background-color: white;
+    padding: 50px 30px;
+   
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+  .moderne-header {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5em;
+    font-weight: bold;
+    color: black;
+    font-style: normal;
+    margin-left: 100px;
+    margin-top: 80px;
+    
+    }
+
+.moderne-body {
+    font-family: 'Bitter', serif;
+    font-size: 3em;
+    color: black;
+    text-align: bottom;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 1700px;
+      margin: auto;
+    }
+    
+    .box {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+      text-align: left;
+      padding: 20px;
+      height: 550px;
+      width: 30%;
+      margin: 90px 20px;
+    }
+    
+    .box-image {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border-style: inset;
+      border-color: #7ed5dd;
+      margin-bottom: 15px;
+    }
+    .box-content {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start; /* Align content to the left */
+     margin-left: 15px;
+    }
+    
+    .box-heading {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.5em;
+      margin-bottom: 30px;
+      margin-top: 20px;
+    }
+    
+    .box-text {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.5em;
+      color: #555;
+     
+    }

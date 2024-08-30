@@ -1,0 +1,68 @@
+/* Style for the Tradition section */
+.tradition-section {
+    position: relative;
+    height: 100vh;
+    background-color: #025259;
+}
+
+/* Container for the text box */
+.tradition-text-box-right {
+    position: relative;
+    width: 45%;
+    /*background-color: rgba(255, 255, 255, 0.8);  Semi-transparent background */
+    padding: 20px;
+    /*border-radius: 10px;*/
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+    left: 900px;
+    top: -30px;
+    z-index: 1;
+}
+
+/* Container for the text box */
+.tradition-text-box-left {
+    position: relative;
+    width: 45%;
+    /*background-color: rgba(255, 255, 255, 0.8);  Semi-transparent background */
+    padding: 20px;
+    /*border-radius: 10px;*/
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+    right: 900px;
+    top: 450px;
+    z-index: 1;
+}
+
+/* Header styling */
+.tradition-header {
+    font-family: 'Bitter', serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Paragraph styling */
+.tradition-body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5;
+    color: white;
+}
+
+
+/* Image styling */
+.text-box-image-left {
+    position: relative;
+    width: 80%;
+    height: auto;
+    top: -250px;
+    left: -920px;
+}
+
+/* Image styling */
+.text-box-image-right {
+    position: relative;
+    width: 80%;
+    height: auto;
+    top: -350px;
+    right: -950px;
+}
